@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Quantum Definitions</title>
+  <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+  <h1>Quantum Computing Encyclopedia</h1>
+
+  <form method="POST" action="/add">
+    <input name="term" placeholder="Term" required>
+    <input name="category" placeholder="Category">
+    <input name="definition" placeholder="Definition" required>
+    <input name="source" placeholder="Source">
+    <button type="submit">Add</button>
+  </form>
+
+  <hr>
+
+  <ul>
+    {% for row in terms %}
+      <li><strong>{{ row['term'] }}</strong> ({{ row['category'] }}): {{ row['definition'] }}
+        {% if row['source'] %} <a href="{{ row['source'] }}">[source]</a>{% endif %}
+      </li>
+    {% endfor %}
+  </ul>
+</body>
+</html>

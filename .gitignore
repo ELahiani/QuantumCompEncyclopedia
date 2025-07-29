@@ -1,0 +1,13 @@
+# Ignore database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Ignore temporary files
+*.log
+*.tmp
+*.bak
+
+# Ignore system files
+.DS_Store
+Thumbs.db

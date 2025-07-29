@@ -1,0 +1,34 @@
+body {
+    max-width: 700px;
+    margin: auto;
+    padding: 2rem;
+    background: #fdfdfd;
+}
+
+h1 {
+    font-family: 'Trebuchet MS';
+}
+
+form {
+    margin-bottom: 2rem;
+}
+
+input {
+    font-family: serif ;
+    margin: 0.2rem;
+    padding: 0.5rem;
+}
+
+button {
+    font-family: serif ;
+    padding: 0.5rem 1rem;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 1rem;
+}
