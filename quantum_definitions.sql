@@ -1,5 +1,5 @@
 -- ========================================
--- Quantum Computing Definitions Database
+-- Quantum Computing Encyclopedia
 -- File: quantum_definitions.sql
 -- Author: Eya LAHIANI
 -- License: MIT
